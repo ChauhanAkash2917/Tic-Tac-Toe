@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Madimi+One&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Madimi One", serif;
+  font-style: normal;
+}
+
+html,
+body {
+  margin-top: 5px;
+  height: 100vh;
+  width: 100%;
+  background: rgb(238, 174, 202);
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+}
+
+body {
+  text-align: center;
+}
+
+.container {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.game {
+  height: 70vmin;
+  width: 70vmin;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+.box {
+  height: 20vmin;
+  width: 20vmin;
+  border: none;
+  border-radius: 1rem;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+  font-size: 9vmin;
+  color: #000000;
+  background-color: #e5ff00;
+}
+#reset-btn {
+  padding: 1rem;
+  font-size: 1.25rem;
+  background-color: #191913;
+  color: #fff;
+  border-radius: 1rem;
+  border: none;
+  cursor: pointer;
+}
+.msg-container {
+  height: 100vmin;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 4rem;
+}
+#msg {
+  color: #000000;
+  font-size: 5vmin;
+}
+#new-btn {
+  padding: 1rem;
+  font-size: 1.25rem;
+  background-color: #191913;
+  color: #fff;
+  border-radius: 1rem;
+  border: none;
+  cursor: pointer;
+}
+.hide {
+  display: none;
+}
+.boxs {
+  background-color: #ffffc7;
+}
